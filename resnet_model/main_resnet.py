@@ -260,7 +260,7 @@ def ResNet50(include_top=None, weights='imagenet',
     # load weights
     if weights == 'imagenet':
     # if you want to load the pretrain_imagenet model ,cancel the comment of next line
-  #  model.load_weights(weights_path)
+       model.load_weights(weights_path)
     #    if K.backend() == 'theano':
      #       layer_utils.convert_all_kernels_in_model(model)
     '''
